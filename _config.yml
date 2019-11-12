@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: jinx的笔记
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: jinx
 language: en
 timezone: ''
 
@@ -99,3 +99,7 @@ deploy:
   # repository: git@gitee.com:jinxhg/notes.git
   repository: https://gitee.com/jinxhg/jinxhg.git
   branch: master
+
+# toc
+toc:
+  maxDepth: 3
