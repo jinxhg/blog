@@ -5,6 +5,10 @@ tags:
 categories: hexo
 ---
 <!-- toc -->
+### 文档地址
+中文官网：https://hexo.io/zh-cn/index.html
+中文文档: https://hexo.io/zh-cn/docs/commands
+
 ### hexo中使用toc标签
 安装hexo-toc
 ```shell
@@ -57,3 +61,14 @@ $ hexo server --drafts
 ```shell
 $ hexo publish [layout] <filename>
 ```
+
+### hexo命令
+1.generate
+
+2.server
+
+3.deploy
+
+### hexo文章资源文件夹
+
+### hexo部署
