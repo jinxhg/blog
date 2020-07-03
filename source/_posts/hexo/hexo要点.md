@@ -41,6 +41,7 @@ $ hexo new page --path about/me "About me"
 ```shell
 $ hexo new page --path about/me
 ```
+此时 Hexo 会创建 source/_posts/about/me.md，同时 me.md 的 Front Matter 中的 title 为 "page"。这是因为在上述命令中，hexo-cli 将 page 视为指定文章的标题、并采用默认的 layout。
 
 ### hexo草稿
 1.生成草稿
