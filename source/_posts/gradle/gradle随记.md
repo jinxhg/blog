@@ -13,3 +13,7 @@ categories: gradle
 Cause: zip END header not found
 ```
 当出现该错误提示的时候,表示Gradle包损坏,需要删除Gradle包重新下载;同样的,使用Gradlew提示该错误时,表示Gradlew包损坏,需要找到使用对应版本的Gradlew包删除重新下载,如果找不到,可以用everything搜索Gradle-版本号-bin.zip然后进行删除
+
+### GRADLE_USER_HOME和idea的gradle user home
+GRADLE_USER_HOME所指目录存放的是Gradle的文件,需要配置idea的gradle user home和GRADLE_USER_HOME一样;
+idea的gradle user home是当你点击idea图形按钮时,所用到的配置;如果idea使用GradleW,并且gradle user home指向的是本地Gradle根目录,那么当你点击idea图形按钮的时候,实际上是运行本地Gradle的命令;
