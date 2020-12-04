@@ -19,3 +19,6 @@ Caused: javax.net.ssl.SSLHandshakeException
 ```
 jenkins的插件镜像地址为https,缺少证书所有报错,可能是jdk证书有问题,这时候可以重新下载一个jdk试一下
 
+### 离线安装插件
+当服务器没有外网的时候,可以先在本地安装插件,然后把本地插件复制到服务器上,
+wndows本地插件安装地址C:\Users\当前账号\.jenkins\plugins
