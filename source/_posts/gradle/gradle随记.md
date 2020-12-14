@@ -4,6 +4,7 @@ date: 2020-11-25 23:04:15
 tags:
 categories: gradle
 ---
+<!-- toc -->
 ### GradleW
 简化Gradle的安装和部署;不同版本的项目可能需要不同版本的Gradle,手工部署比较麻烦,而且可能产生冲突
 
