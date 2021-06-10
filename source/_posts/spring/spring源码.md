@@ -1,31 +1,19 @@
 ---
-title: spring随机
-date: 2020-12-14 16:13:01
-tags: spring
+title: spring源码
+date: 2020-12-15 15:29:47
+categories: spring
 ---
 <!-- toc -->
-### idea2018.3+spring5.0.x
-1.配置maven库国内镜像
-```
-buildscript {
-	repositories {
-		mavenLocal()
-		mavenCentral()
-		maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
-		maven { url 'https://maven.aliyun.com/nexus/content/repositories/jcenter'}
-		maven { url "https://repo.spring.io/plugins-release" }
-	}
-	dependencies {
-		classpath("io.spring.gradle:propdeps-plugin:0.0.8")
-		classpath("io.spring.gradle:docbook-reference-plugin:0.3.1")
-		classpath("org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.16")
-		classpath("org.asciidoctor:asciidoctorj-epub3:1.5.0-alpha.7")
-	}
-}
-```
+### 方法论
+1. 看源码注解,英文注解看不懂可以安装idea翻译插件
+2. 先看脉络,后面有兴趣有时间再深究
+3. 大胆猜测
+4. 坚持
 
-2.spring5.0x与idea的gradle插件版本差异
-当idea版本过高,会报如下错误,可以使用idea2018.3版本
-```
-The getTestClassesDir() method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the getTestClassesDirs() method instead.
+### 编程式使用IOC容器
+``` java
+ClassPathResource res = new ClassPathResource("beans.xml");
+DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
+XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
+reader.loadBeanDefinitions(res);
 ```
