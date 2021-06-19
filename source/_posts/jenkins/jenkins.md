@@ -1,7 +1,7 @@
 ---
 title: jenins
 date: 2020-12-04 09:56:09
-tags:
+tags: ['jenkins', '自动化部署']
 categories: jenkins
 ---
 <!-- toc -->

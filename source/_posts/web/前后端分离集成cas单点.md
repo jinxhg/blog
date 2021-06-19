@@ -1,7 +1,7 @@
 ---
 title: 前后端分离集成cas单点
 date: 2020-05-07 09:15:18
-tags:
+tags: ['web', 'cas', '单点登录']
 categories: web
 ---
 <!-- toc -->

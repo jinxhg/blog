@@ -1,7 +1,7 @@
 ---
 title: hexo要点
 date: 2019-11-12 11:46:05
-tags:
+tags: hexo
 categories: hexo
 ---
 <!-- toc -->
@@ -17,7 +17,7 @@ $ npm install hexo-toc --save
 然后,配置_config.yml文件
 ```yml
 toc:
-  maxdepth: 3
+  maxDepth: 3
   class: toc
   slugify: transliteration
   decodeEntities: false
@@ -64,12 +64,18 @@ $ hexo publish [layout] <filename>
 ```
 
 ### hexo命令
-1.generate
-
-2.server
-
-3.deploy
-
-### hexo文章资源文件夹
-
-### hexo部署
+#### generate
+生成静态文件,-d文件生成后立即部署网站
+```shell
+hexo g -d
+```
+#### server
+启动服务器
+```shell
+hexo server
+```
+#### deploy
+部署网站, -g部署之前预先生成静态文件
+```shell
+hexo d -g
+```

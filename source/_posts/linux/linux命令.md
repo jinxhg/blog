@@ -1,7 +1,7 @@
 ---
 title: linux命令
 date: 2020-07-12 00:17:33
-tags:
+tags: ['linux', 'linux命令']
 categories: linux
 ---
 <!-- toc -->

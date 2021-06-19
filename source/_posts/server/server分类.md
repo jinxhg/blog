@@ -1,6 +1,7 @@
 ---
 title: server分类
 date: 2020-04-13 13:38:59
+tags: server
 categories: server
 ---
 <!-- toc -->

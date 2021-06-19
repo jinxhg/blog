@@ -1,7 +1,7 @@
 ---
 title: gradle随记
 date: 2020-11-25 23:04:15
-tags:
+tags: gradle
 categories: gradle
 ---
 <!-- toc -->
