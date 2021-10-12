@@ -14,3 +14,9 @@ find .|xargs grep -ri "IBM"
 ```ssh
 find .|xargs grep -ri "IBM" -l
 ```
+
+### 压缩和解压
+解压tar.gz文件
+```
+tar -zxvf xxx.tar.gz
+```

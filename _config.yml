@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://jinxhg.gitee.io/
+url: git@github.com:jinxhg/jinxhg.github.io.git
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -96,8 +96,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repository: git@gitee.com:jinxhg/notes.git
-  repository: https://gitee.com/jinxhg/jinxhg.git
+  repository: git@github.com:jinxhg/jinxhg.github.io.git
   branch: master
 
 # toc
