@@ -20,3 +20,16 @@ find .|xargs grep -ri "IBM" -l
 ```
 tar -zxvf xxx.tar.gz
 ```
+
+### df磁盘空间查看
+df可以查看一级文件夹大小、使用比例、档案系统及其挂入点。
+```
+$ df -Th
+```
+-T:可以用来查看分区的文件系统。
+-h:表示使用「Human-readable」的输出，也就是在档案系统大小使用 GB、MB 等易读的格式。
+
+### du详细磁盘使用分析
+```
+$ du -h --max-depth=1 /var/log
+```
